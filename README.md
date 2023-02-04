@@ -31,3 +31,13 @@ Example:
     5color = "green"  #invalid varaible name
     $color = "orangee" #invalid variable name
 
+Sometimes, a multi-word variable name can be difficult to read by the reader. To
+make it more readable, the programmer can do the following:
+
+Example:
+
+    NameOfCity = "Dhaka"         #Pascal case
+    nameofcity = "Dubai"         #Camel case
+    name_of_city = "California"  #snake case 
+
+    
