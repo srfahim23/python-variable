@@ -52,12 +52,12 @@ Example:
 
     icecream = "Vanilla"   #global variable 
     def foods():
-    vegetable = "Potato"   #local variable
-    frut =   "lichi"       #local variable 
-    print(vegetable + " is a local variable value.")
-    print(fruit + " is a local variable value.")
+        vegetable = "Potato"   #local variable
+        frut =   "lichi"       #local variable 
+        print(vegetable + " is a local variable value.")
+        print(fruit + " is a local variable value.")
 
-foods()
+    foods()
 
 Output:
 
