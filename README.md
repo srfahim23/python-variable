@@ -40,4 +40,27 @@ Example:
     nameofcity = "Dubai"         #Camel case
     name_of_city = "California"  #snake case 
 
-    
+# Scope of Variable:
+The scope of the variable is the area within which the variable has been created.
+Based on this a variable can either have a local scope or a global scope.
+
+# Local Variable:
+A local variable is created within a function and can be only used inside that
+function. Such a varaible has a local scope.
+
+Example:
+
+    icecream = "Vanilla"   #global variable 
+    def foods():
+    vegetable = "Potato"   #local variable
+    frut =   "lichi"       #local variable 
+    print(vegetable + " is a local variable value.")
+    print(fruit + " is a local variable value.")
+
+foods()
+
+Output:
+
+    Potato is a local variable value.
+    Vanilla is a global variable value.
+    Lichi is a local variable value.
