@@ -15,3 +15,7 @@ _color = "blue"    #valid variable name
 # 5color = "green"   #invalid variable name
 # $color = "orange"  #invalid variable name
 
+#Example case sensitive variable
+NameOfCity = "Mumbai"   #Pascal case
+nameofcity = "Berlin"    #Camel case
+name_of_city = "MOscow"   #snake case
