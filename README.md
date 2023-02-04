@@ -23,6 +23,7 @@ Variable are case sensitive.
 Variable name cannot start with a number.
 
 Example:
+
     Color = "yellow"  #valid varaible name
     cOlor = "red"     #valid varaible name
     _color = "blue"   #valid varable name
