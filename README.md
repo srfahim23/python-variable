@@ -80,3 +80,8 @@ Example
         foods()
         print(icecream + " is a global varable value.")    
         print(fruit + " is a local varaiable value.")
+
+Output:
+
+        Potato is a local variable value.
+        Valilla is a global variable value.
