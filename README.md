@@ -64,3 +64,19 @@ Output:
     Potato is a local variable value.
     Vanilla is a global variable value.
     Lichi is a local variable value.
+
+# Global Variable 
+A global variable is created in the main body of the code and can be used
+anywhere within the code. Such a variable has a global scope.
+
+Example
+
+        icecream = "Vanilla"     #global variable
+        def food():
+            vegetable = "Potato"     #local variable 
+            fruit = "lichi"          #local variable 
+            print(vegetable + " is a local variable value.")
+
+        foods()
+        print(icecream + " is a global varable value.")    
+        print(fruit + " is a local varaiable value.")
